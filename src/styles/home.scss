@@ -1,0 +1,47 @@
+$primary: #3a3b3a;
+
+$secondary: #000;
+$clicked: #ff4500;
+$nav-btn: #ffffff;
+$background: #fafafa;
+
+.section-home {
+  height: 100vh;
+  top: 0;
+}
+
+.section-projects {
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+.section-tech {
+  height: 100vh;
+}
+
+.home-background {
+  height: 100vh;
+  background-color: $background;
+}
+.welcome-text-box {
+  width: 40vw;
+  display: block;
+  top: 33vh;
+  left: 10vw;
+  position: absolute;
+  font-size: 200%;
+  font-family: "Source Code Pro", monospace;
+  color: $primary;
+}
+.welcome-text-box_1 {
+  width: 40vw;
+  display: block;
+  top: 45vh;
+  position: absolute;
+  text-align: left;
+  font-size: 200%;
+  left: 10vw;
+  color: $primary;
+
+  font-family: "Source Code Pro", monospace;
+}

@@ -1,0 +1,103 @@
+$primary: #3a3b3a;
+
+$secondary: #00d563;
+
+$clicked: #ff4500;
+$nav-btn: #ffffff;
+$background: #fafafa;
+$background-nav: #fafafa50;
+
+.nav-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". .";
+  height: 10vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: $background;
+  z-index: 2;
+}
+
+.logo {
+  font-size: 150%;
+  color: $primary;
+  margin-top: 2.5vh;
+  text-align: left;
+  margin-left: 10vw;
+  font-family: "Lato", sans-serif;
+}
+.nav-link {
+  cursor: pointer;
+  text-decoration: none;
+  list-style-type: none;
+  display: inline;
+  padding: 4%;
+  text-decoration: none;
+  position: relative;
+  font-size: 100%;
+  font-weight: 800;
+  background: linear-gradient(
+    to right,
+    $secondary,
+    $secondary 50%,
+    $primary 50%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 500ms ease;
+  text-decoration: none;
+
+  &:hover {
+    // background-position: 0 100%;
+    background-position: 0% 100%;
+  }
+}
+.active {
+  background-position: 0% 100%;
+}
+.btn-container {
+  margin-top: 3vh;
+}
+.nav-link a:active {
+  background-color: red;
+}
+.nav-link a {
+  text-decoration: none;
+  color: $primary;
+  position: relative;
+  font-size: 100%;
+  font-weight: 800;
+  background: linear-gradient(
+    to right,
+    $secondary,
+    $secondary 50%,
+    $primary 50%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 500ms ease;
+  text-decoration: none;
+
+  &:hover {
+    background-position: 0 100%;
+  }
+}
+
+.nav-buttons {
+  text-align: center;
+}
+
+//na chwile
+
+.content {
+  background-color: $clicked;
+  height: 85vh;
+}

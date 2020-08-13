@@ -1,0 +1,54 @@
+  // <ScrollTo>
+    //   {({ scroll }) => (
+    //     <ScrollArea className="projects-main-container" ref={this.abc}>
+    <div className="projects-main-container">
+      <div className="background-image">
+        <div className="projects_item" id="project">
+          <ProjectHeader>Project X</ProjectHeader>
+          {/* <ProjectDescription>
+                  Lorem ipsum dolor sit amet,
+                  <br /> consectetur adipisicing elit.
+                </ProjectDescription> */}
+          {/* <ProjectButton /> */}
+          <div className="triggers-holder">
+            <Link
+              className="down"
+              activeClass="active"
+              to="techno"
+              spy={true}
+              smooth={true}
+              offset={-0.1 * vh}
+              duration={500}
+              delay={1000}
+            >
+              Down
+            </Link>
+            <div
+              className="right"
+              // onClick={() => scroll({ x: this.vw, smooth: true })}
+            >
+              Right
+            </div>
+          </div>
+        </div>
+        <div className="projects_item second" id="second">
+          <ProjectHeader>Project X</ProjectHeader>
+          {/* <ProjectDescription>
+                  Lorem ipsum dolor sit amet,
+                  <br /> consectetur adipisicing elit.
+                </ProjectDescription> */}
+          <div className="triggers-holder">
+            <div
+              className="left"
+              // onClick={() => scroll({ x: 0, smooth: true })}
+            >
+              Left
+            </div>
+            <div className="right">Right</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    //     </ScrollArea>
+    //   )}
+    // </ScrollTo>
