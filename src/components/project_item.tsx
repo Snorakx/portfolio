@@ -1,23 +1,10 @@
-import React, { FC, Component, PropsWithChildren } from "react";
-import {
-  Link,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll";
-import { ScrollTo, ScrollArea } from "react-scroll-to";
-import { scrollToTop } from "react-scroll/modules/mixins/animate-scroll";
+import React, { FC } from "react";
+
 import ProjectHeader from "./project_header";
 import ProjectDescription from "./project_description";
 import ProjectButton from "./project_button";
 import PropTypes from "prop-types";
-import {
-  CSSTransition,
-  TransitionGroup,
-  Transition,
-} from "react-transition-group";
+
 import ProjectPhoto from "./project_photo";
 import ProjectPhoto2 from "./project_photo_2";
 
@@ -33,12 +20,12 @@ const SingleProject = ({ property }: any) => {
     picture_2,
     href,
   } = property;
+
   return (
     <div className="projects_item" id={`project-${index}`}>
       <ProjectPhoto2>{picture_2}</ProjectPhoto2>
 
       <ProjectPhoto>{picture}</ProjectPhoto>
-
       <ProjectHeader>{project_header}</ProjectHeader>
       <ProjectDescription>{project_description}</ProjectDescription>
       <ProjectButton>{index}</ProjectButton>

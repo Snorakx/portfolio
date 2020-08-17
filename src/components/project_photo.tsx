@@ -1,9 +1,6 @@
-import React, { FC, useEffect, useState, Component } from "react";
-import { useHistory } from "react-router-dom";
+import React, { FC, useEffect } from "react";
 import "aos/dist/aos.css";
 import Aos from "aos";
-import { CSSTransition } from "react-transition-group";
-import abd from "../assets/miotlowiskoSmartphone.png";
 
 const ProjectPhoto: FC = (props) => {
   const vh = window.innerHeight;

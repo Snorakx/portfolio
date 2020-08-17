@@ -15,7 +15,7 @@ $background: #fafafa;
   scroll-behavior: smooth;
 }
 
-.section-tech {
+.section-contact {
   height: 100vh;
 }
 
@@ -29,7 +29,7 @@ $background: #fafafa;
   top: 33vh;
   left: 10vw;
   position: absolute;
-  font-size: 200%;
+  font-size: 2vw;
   font-family: "Source Code Pro", monospace;
   color: $primary;
 }
@@ -39,9 +39,38 @@ $background: #fafafa;
   top: 45vh;
   position: absolute;
   text-align: left;
-  font-size: 200%;
+  font-size: 2vw;
+
   left: 10vw;
   color: $primary;
 
   font-family: "Source Code Pro", monospace;
+}
+@media (max-width: 688px) {
+  .welcome-text-box {
+    width: 90vw;
+    display: block;
+    top: 13vh;
+    left: 5vw;
+
+    position: absolute;
+    font-size: 5vh;
+    font-family: "Source Code Pro", monospace;
+    color: $primary;
+    text-align: center;
+  }
+  .welcome-text-box_1 {
+    width: 90vw;
+
+    display: block;
+    top: 25vh;
+    position: absolute;
+    text-align: center;
+    font-size: 5vh;
+
+    left: 5vw;
+    color: $primary;
+
+    font-family: "Source Code Pro", monospace;
+  }
 }

@@ -2,7 +2,7 @@
 @import "./styles/home.scss";
 @import "./styles/home_button.scss";
 @import "./styles/projects.scss";
-@import "./styles/technologies.scss";
+@import "./styles/contact.scss";
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap");
 @import url("https://fontlibrary.org/face/archicoco");
@@ -13,7 +13,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Lato";
-
+  font-weight: 700;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

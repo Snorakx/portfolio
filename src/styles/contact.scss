@@ -1,0 +1,121 @@
+$primary: #f0f0f0;
+$secondary: #00d563;
+$clicked: #ff4500;
+$nav-btn: #ffffff;
+$background: #2e2e2e;
+$background-icon: #e9fbf289;
+
+.contact-header-wrapper {
+  padding: 5%;
+  text-align: center;
+}
+.contact-header {
+  font-family: "Helvetica", "Arial", sans-serif;
+
+  padding: 2%;
+  font-size: 10vh;
+}
+
+.contact-header-description {
+  padding: 2%;
+  font-size: 150%;
+}
+.underline {
+  background-color: #e9fbf2;
+
+  width: 9vw;
+  height: 0.4vh;
+  display: block;
+  margin-left: auto;
+  margin-top: -1%;
+  margin-right: auto;
+}
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1px 1px;
+  grid-template-areas: ". . . .";
+}
+
+.contact-item {
+  margin-top: 10%;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "." ".";
+}
+.contact-item a {
+  text-decoration: none;
+  color: #00000070;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.icon {
+  font-size: 3.2vw;
+  padding: 35%;
+  color: $background;
+}
+.contact-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50vw;
+  -webkit-box-shadow: 7px 9px 10px 0px rgba(0, 0, 0, 0.095);
+  -moz-box-shadow: 7px 9px 10px 0px rgba(0, 0, 0, 0.095);
+  box-shadow: 7px 9px 10px 0px rgba(0, 0, 0, 0.095);
+  background-color: $background-icon;
+}
+.contact-label {
+  margin-top: -15%;
+  color: #00000070;
+  font-size: 1.1vw;
+}
+
+@media (max-width: 688px) {
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10vh 1px;
+    grid-template-areas: "." ".";
+  }
+  .contact-item {
+    margin-top: 10%;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.25fr;
+    gap: 1px 1px;
+    grid-template-areas: ".";
+  }
+  .icon {
+    font-size: 10vw;
+  }
+  .contact-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 0;
+    -webkit-box-shadow: 7px 9px 10px 0px rgba(0, 0, 0, 0.095);
+    -moz-box-shadow: 7px 9px 10px 0px rgba(0, 0, 0, 0.095);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.095);
+    background-color: $nav-btn;
+  }
+  .contact-label {
+    font-size: 3vw;
+  }
+  .contact-item {
+    margin-top: -2vh;
+  }
+}

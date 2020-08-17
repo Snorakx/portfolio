@@ -160,7 +160,7 @@ button {
 
   text-align: center;
   padding: 10%;
-  font-size: 150%;
+  font-size: 1.5vw;
   font-weight: 500;
   color: $primary;
   transition: 1s;
@@ -177,7 +177,8 @@ button {
   border-radius: 20px;
   text-align: center;
   padding: 10%;
-  font-size: 150%;
+  font-size: 1.5vw;
+
   font-weight: 500;
   color: $primary;
   transition: 1s;
@@ -190,5 +191,69 @@ button {
     -webkit-box-shadow: 10px 10px 35px -15px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 35px -15px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 35px -15px $secondary;
+  }
+}
+@media (max-width: 688px) {
+  .home-button-box {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "." ".";
+    gap: 5vh;
+    position: relative;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50vh;
+    opacity: 0;
+
+    justify-items: center;
+    -webkit-animation: test 2s opacity;
+    animation: test 2s opacity;
+    -webkit-animation: test2 2s ease-in-out 6s infinite, test 3s ease-out 3s 1;
+    animation: test2 2s ease-in-out 6s infinite, test 3s ease-out 3s 1;
+  }
+  .home-button {
+    width: 33vw;
+    border-radius: 20px;
+
+    text-align: center;
+    padding: 3.5vh;
+    font-size: 7vw;
+
+    font-weight: 500;
+    color: $primary;
+    transition: 1s;
+    background-color: $secondary;
+
+    &:hover {
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+  .home-button_1 {
+    width: 33vw;
+    border-radius: 20px;
+    text-align: center;
+    padding: 3.5vh;
+
+    font-size: 7vw;
+
+    font-weight: 500;
+    color: $primary;
+    transition: 1s;
+    color: $background;
+
+    box-shadow: 0 0 0 2px $secondary;
+
+    &:hover {
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
   }
 }
