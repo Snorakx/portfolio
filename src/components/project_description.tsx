@@ -1,5 +1,4 @@
-import React, { FC, useEffect, useState, Component } from "react";
-import { useHistory } from "react-router-dom";
+import React, { FC, useEffect } from "react";
 import "aos/dist/aos.css";
 import Aos from "aos";
 
@@ -13,7 +12,7 @@ const ProjectDescription: FC = (props) => {
   return (
     <div
       data-aos="fade-right"
-      data-aos-delay="2000"
+      data-aos-delay="1500"
       className="project-desc-box"
     >
       <div className="description">{props.children}</div>

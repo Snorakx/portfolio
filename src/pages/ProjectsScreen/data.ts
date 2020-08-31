@@ -2,20 +2,9 @@ export const data = {
   properties: [
     {
       id: 123,
-      project_header: "Project X",
+
+      project_header: "MIOTŁOWISKO",
       index: 0,
-      project_description: " Lorem ipsum Lorem. ipsum Lorem ipsum Lorem ipsum ",
-      picture: "https://i.ibb.co/t43c1mK/miotlowisko-Smartphone.png",
-      picture_2: "https://i.ibb.co/LpkQq7n/miotlowisko-Desktop.png",
-      button_text: "Live",
-
-      href: "Singer",
-    },
-    {
-      id: 345,
-
-      project_header: "MIOTLOWISKO",
-      index: 1,
       project_description: "Website for local business with sauna events.",
       picture: "https://i.ibb.co/t43c1mK/miotlowisko-Smartphone.png",
       picture_2: "https://i.ibb.co/LpkQq7n/miotlowisko-Desktop.png",
@@ -24,16 +13,27 @@ export const data = {
     },
 
     {
-      id: 678,
+      id: 345,
 
       project_header: "SKINCARE",
-      index: 2,
+      index: 1,
       project_description: "E-commerce site for selling courses",
       picture: "https://i.ibb.co/dtZSF56/skincare-Smartphone.png",
       picture_2: "https://i.ibb.co/RSVYZLR/skincare-Desktop.png",
       button_text: "Live",
 
-      href: "Singer",
+      href: "http://wp-start.cba.pl/",
+    },
+    {
+      id: 678,
+      project_header: "Kanban App",
+      index: 2,
+      project_description: "App for managing tasks",
+      picture: "https://i.ibb.co/dpL5Zcp/000.png",
+      picture_2: "https://i.ibb.co/gzcqBS9/kanban-big-1.png",
+      button_text: "Live",
+
+      href: "https://github.com/Snorakx/KanbanApp",
     },
   ],
 };

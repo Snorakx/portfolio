@@ -18,10 +18,11 @@ $background-nav: #fafafa50;
   width: 100%;
   background-color: $background;
   z-index: 2;
+  font-family: "Lato", sans-serif;
 }
 
 .logo {
-  font-size: 150%;
+  font-size: 1.55vw;
   color: $primary;
   margin-top: 2.5vh;
   text-align: left;
@@ -36,7 +37,7 @@ $background-nav: #fafafa50;
   padding: 4%;
   text-decoration: none;
   position: relative;
-  font-size: 100%;
+  font-size: 1vw;
   font-weight: 800;
   background: linear-gradient(
     to right,
@@ -50,7 +51,6 @@ $background-nav: #fafafa50;
   background-size: 200% 100%;
   background-position: 100%;
   transition: background-position 500ms ease;
-  text-decoration: none;
 
   &:hover {
     // background-position: 0 100%;
@@ -70,7 +70,7 @@ $background-nav: #fafafa50;
   text-decoration: none;
   color: $primary;
   position: relative;
-  font-size: 100%;
+  font-size: 1vw;
   font-weight: 800;
   background: linear-gradient(
     to right,
@@ -100,4 +100,59 @@ $background-nav: #fafafa50;
 .content {
   background-color: $clicked;
   height: 85vh;
+}
+@media (max-width: 688px) {
+  .nav-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: ".";
+    height: 10vh;
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    height: 8vh;
+    width: 100vw;
+    background-color: #f0f0f0;
+    z-index: 2;
+    font-family: "Lato", sans-serif;
+  }
+  .logo {
+    display: none;
+  }
+  .nav-link {
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    padding: 5%;
+    text-decoration: none;
+    position: relative;
+    font-size: 5vw;
+    font-weight: 800;
+    background: linear-gradient(
+      to right,
+      $secondary,
+      $secondary 50%,
+      $primary 50%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 500ms ease;
+
+    &:hover {
+      // background-position: 0 100%;
+      background-position: 0% 100%;
+    }
+  }
+
+  .btn-container {
+    margin-top: -6vh;
+  }
+  .icon-home {
+    font-size: 7vw;
+  }
 }

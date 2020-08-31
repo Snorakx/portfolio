@@ -5,6 +5,9 @@ import HomeScreen from "./pages/Home";
 import Nav from "./components/nav";
 
 class App extends Component {
+  componentDidMount() {
+    document.title = "Patryk Kozieł Portfolio";
+  }
   render() {
     return (
       <BrowserRouter>

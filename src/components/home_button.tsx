@@ -27,7 +27,7 @@ const HomeButton: FC = (props) => {
       <Link
         className="link"
         activeClass="active"
-        to="techno"
+        to="section-contact"
         spy={true}
         smooth={true}
         offset={-0.1 * vh}

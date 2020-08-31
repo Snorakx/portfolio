@@ -52,3 +52,73 @@
     //     </ScrollArea>
     //   )}
     // </ScrollTo>
+
+
+
+
+
+
+    import React, { FC } from "react";
+
+import ProjectHeader from "../project_header";
+import ProjectDescription from "../project_description";
+import ProjectButton from "../project_button";
+import PropTypes from "prop-types";
+
+import ProjectPhoto from "../project_photo";
+import ProjectPhoto2 from "../project_photo_2";
+import miotlowisko from "../../assets/miotlowisko_desktop_mobile.png";
+import {
+  Link,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll";
+
+const SingleProjectMobile = ({ property }: any) => {
+  const vw = window.innerWidth;
+  const vh = window.innerHeight;
+  const scrollRef = React.createRef;
+
+  const scrollToNextProject = () => {};
+
+  const {
+    id,
+    project_header,
+    index,
+    project_description,
+    picture,
+    picture_2,
+    href,
+  } = property;
+
+  return (
+    <div className="projects_item" id={`project-${index}`}>
+      <div className="mobile-header">RECENT PROJECTS</div>
+      <div className="projects-holder" ref={scrollRef}>
+        <div className="mobile-photo" id="1">
+          <div className="live-project-button">Miotlowisko</div>
+
+          <img src={miotlowisko} />
+          <div className="live-project-button">Check Live</div>
+        </div>
+        <div className="mobile-photo" id="2">
+          <div className="live-project-button">Check Live</div>
+
+          <img src={miotlowisko} />
+        </div>
+        <div className="mobile-photo" id="3">
+          <img src={miotlowisko} />
+          <div className="live-project-button">Check Live</div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+SingleProjectMobile.propTypes = {
+  property: PropTypes.object.isRequired,
+};
+export default SingleProjectMobile;
