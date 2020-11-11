@@ -16,7 +16,10 @@ const ProjectPhoto2: FC = (props) => {
       data-aos="fade-in"
       data-aos-delay="3000"
     >
-      <img src={`${props.children}`} />
+      <img
+        src={`${props.children}`}
+        alt="Projekt Frontend, Programista, Patryk Kozieł"
+      />
     </div>
   );
 };

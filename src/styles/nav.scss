@@ -18,7 +18,7 @@ $background-nav: #fafafa50;
   width: 100%;
   background-color: $background;
   z-index: 2;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .logo {
@@ -107,15 +107,15 @@ $background-nav: #fafafa50;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: ".";
-    height: 10vh;
     position: fixed;
     top: auto;
     bottom: 0;
-    height: 8vh;
     width: 100vw;
+    height: 8vh !important;
     background-color: #f0f0f0;
     z-index: 2;
     font-family: "Lato", sans-serif;
+    height: auto;
   }
   .logo {
     display: none;
@@ -125,8 +125,9 @@ $background-nav: #fafafa50;
     text-decoration: none;
     list-style-type: none;
     display: inline;
-    padding: 5%;
     text-decoration: none;
+    top: -50%;
+    padding: 6%;
     position: relative;
     font-size: 5vw;
     font-weight: 800;
@@ -150,9 +151,11 @@ $background-nav: #fafafa50;
   }
 
   .btn-container {
-    margin-top: -6vh;
+    height: 5vh;
+    padding: 2%;
   }
-  .icon-home {
-    font-size: 7vw;
+  .nav-link svg {
+    width: 20vw;
+    font-size: 8vw;
   }
 }

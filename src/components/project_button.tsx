@@ -4,11 +4,15 @@ import { useHistory } from "react-router-dom";
 const ProjectButton: FC = (props) => {
   let handleHref = "";
   if (props.children === 0) {
-    handleHref = "http://miotlowisko.pl/trzymiotly/";
+    handleHref = "https://findremotejobs.netlify.app/";
   } else if (props.children === 1) {
-    handleHref = "http://wp-start.cba.pl/";
-  } else if (props.children === 2) {
     handleHref = "https://github.com/Snorakx/KanbanApp";
+  } else if (props.children === 2) {
+    handleHref = "http://wp-start.cba.pl/";
+  } else if (props.children === 3) {
+    handleHref = "http://x-media.pl";
+  } else if (props.children === 4) {
+    handleHref = "http://miotlowisko.pl/trzymiotly";
   }
   const history = useHistory();
   // const { href } = property;

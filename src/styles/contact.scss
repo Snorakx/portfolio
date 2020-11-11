@@ -10,10 +10,10 @@ $background-icon: #e9fbf289;
   text-align: center;
 }
 .contact-header {
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   padding: 2%;
-  font-size: 10vh;
+  font-size: 6vh;
 }
 
 .contact-header-description {
@@ -54,6 +54,7 @@ $background-icon: #e9fbf289;
   &:hover {
     text-decoration: underline;
   }
+  font-family: "Montserrat", sans-serif;
 }
 
 .icon {

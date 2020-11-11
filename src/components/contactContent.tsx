@@ -37,7 +37,7 @@ const ContactContent: FC = (props) => {
         </div>
         <div className="contact-label">
           <a href="https://www.linkedin.com/in/patryk-kozieł/" target="_blank">
-            Zobacz
+            Check
             <br />
             LinkedIn
           </a>
@@ -49,7 +49,7 @@ const ContactContent: FC = (props) => {
         </div>
         <div className="contact-label">
           <a href="https://github.com/Snorakx" target="_blank">
-            Zobacz
+            Check
             <br />
             Github
           </a>

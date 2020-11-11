@@ -11,7 +11,7 @@ const ProjectPhoto: FC = (props) => {
 
   return (
     <div className="project-photo-box" data-aos="fade-in" data-aos-delay="3000">
-      <img src={`${props.children}`} />
+      <img src={`${props.children}`} alt="Projekt FrontEnd Patryk Kozieł" />
       {/* <img src={"../assets/miotlowiskoSmartphone.png"} /> */}
     </div>
   );

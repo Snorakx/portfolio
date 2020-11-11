@@ -19,7 +19,7 @@ const ProjectsHorizontalScreen = ({ property }: any) => {
         <TransitionGroup className="background-image">
           <CSSTransition
             key={property.id}
-            timeout={{ enter: 3000, exit: 1500 }}
+            timeout={{ enter: 3000, exit: 1000 }}
             classNames="slide"
           >
             <SingleProject property={property} />

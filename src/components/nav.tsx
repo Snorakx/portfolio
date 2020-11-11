@@ -8,7 +8,9 @@ import {
   scrollSpy,
   scroller,
 } from "react-scroll";
-import { TiHome } from "react-icons/ti";
+import { GiFizzingFlask } from "react-icons/gi";
+import { AiFillHome } from "react-icons/ai";
+import { IoIosContact } from "react-icons/io";
 
 const Nav: FC = (props) => {
   const vh = window.innerHeight;
@@ -30,7 +32,7 @@ const Nav: FC = (props) => {
               duration={500}
               delay={500}
             >
-              PROJECTS
+              <GiFizzingFlask></GiFizzingFlask>
             </Link>
             <Link
               className="nav-link"
@@ -42,8 +44,7 @@ const Nav: FC = (props) => {
               duration={500}
               delay={500}
             >
-              {/* <TiHome className="icon-home" /> */}
-              HOME
+              <AiFillHome></AiFillHome>
             </Link>
             <Link
               className="nav-link"
@@ -55,7 +56,7 @@ const Nav: FC = (props) => {
               duration={500}
               delay={500}
             >
-              CONTACT
+              <IoIosContact></IoIosContact>
             </Link>
           </div>
         </div>
@@ -74,10 +75,10 @@ const Nav: FC = (props) => {
               spy={true}
               smooth={true}
               offset={-0.1 * vh}
-              duration={500}
-              delay={500}
+              duration={300}
+              delay={100}
             >
-              HOME
+              Home
             </Link>
             <Link
               className="nav-link"
@@ -86,10 +87,10 @@ const Nav: FC = (props) => {
               spy={true}
               smooth={true}
               offset={-0.08 * vh}
-              duration={500}
-              delay={500}
+              duration={300}
+              delay={100}
             >
-              PROJECTS
+              Projects
             </Link>
             {/* <Link
             className="nav-link"
@@ -110,10 +111,10 @@ const Nav: FC = (props) => {
               spy={true}
               smooth={true}
               offset={-0.08 * vh}
-              duration={500}
-              delay={500}
+              duration={300}
+              delay={100}
             >
-              CONTACT
+              Contact
             </Link>
           </div>
         </div>

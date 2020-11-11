@@ -19,6 +19,7 @@
     "react-dom": "^16.13.1",
     "react-hook-form": "^6.4.0",
     "react-icons": "^3.10.0",
+    "react-particles-js": "^3.4.1",
     "react-perfect-scrollbar": "^1.5.8",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
@@ -26,9 +27,10 @@
     "react-scroll-horizontal": "^1.6.4",
     "react-scroll-to": "^3.0.0-beta.6",
     "react-transition-group": "^4.4.1",
+    "react-tsparticles": "^1.18.10",
     "react-typed": "^1.2.0",
     "typed.js": "^2.0.11",
-    "typescript": "~3.7.2"
+    "typescript": "3.8"
   },
   "scripts": {
     "start": "react-scripts start",

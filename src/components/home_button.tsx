@@ -20,7 +20,7 @@ const HomeButton: FC = (props) => {
         smooth={true}
         offset={-0.08 * vh}
         duration={500}
-        delay={200}
+        delay={100}
       >
         <div className="home-button">Projects</div>
       </Link>
@@ -32,7 +32,7 @@ const HomeButton: FC = (props) => {
         smooth={true}
         offset={-0.1 * vh}
         duration={500}
-        delay={1000}
+        delay={100}
       >
         <div className="home-button_1">Contact</div>
       </Link>

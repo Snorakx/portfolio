@@ -1,4 +1,4 @@
-$primary: #f0f0f0;
+$primary: #fff;
 $secondary: #00d563;
 $clicked: #ff4500;
 $nav-btn: #ffffff;
@@ -156,7 +156,7 @@ button {
 }
 .home-button {
   width: 13vw;
-  border-radius: 20px;
+  border-radius: 2px;
 
   text-align: center;
   padding: 10%;
@@ -174,7 +174,7 @@ button {
 }
 .home-button_1 {
   width: 13vw;
-  border-radius: 20px;
+  border-radius: 2px;
   text-align: center;
   padding: 10%;
   font-size: 1.5vw;
@@ -183,7 +183,7 @@ button {
   color: $primary;
   transition: 1s;
   color: $background;
-  // background-color: #dcdcdc;
+  background-color: #fff;
 
   box-shadow: 0 0 0 2px $secondary;
 
@@ -191,6 +191,7 @@ button {
     -webkit-box-shadow: 10px 10px 35px -15px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 35px -15px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 35px -15px $secondary;
+    background-color: #fff;
   }
 }
 @media (max-width: 688px) {
@@ -218,16 +219,17 @@ button {
   }
   .home-button {
     width: 33vw;
-    border-radius: 20px;
+    border-radius: 2px;
 
     text-align: center;
-    padding: 3.5vh;
-    font-size: 7vw;
+    padding: 2vh;
+    font-size: 5vw;
 
     font-weight: 500;
     color: $primary;
     transition: 1s;
     background-color: $secondary;
+    box-shadow: 0 0 0 2px $secondary;
 
     &:hover {
       -webkit-box-shadow: none;
@@ -237,18 +239,19 @@ button {
   }
   .home-button_1 {
     width: 33vw;
-    border-radius: 20px;
-    text-align: center;
-    padding: 3.5vh;
+    border-radius: 2px;
 
-    font-size: 7vw;
+    text-align: center;
+    padding: 2vh;
+
+    font-size: 5vw;
 
     font-weight: 500;
     color: $primary;
     transition: 1s;
     color: $background;
 
-    box-shadow: 0 0 0 2px $secondary;
+    box-shadow: 0 0 0 1px $secondary;
 
     &:hover {
       -webkit-box-shadow: none;
