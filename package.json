@@ -13,6 +13,7 @@
     "@types/react-scroll": "^1.5.5",
     "@types/react-transition-group": "^4.4.0",
     "aos": "^3.0.0-beta.6",
+    "browserlist": "^1.0.1",
     "netlify": "^4.3.11",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
