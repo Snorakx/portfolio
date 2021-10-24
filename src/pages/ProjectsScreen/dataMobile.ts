@@ -1,9 +1,19 @@
 export const dataMobile = {
   properties: [
     {
+      id: 263,
+      project_header: "DesireLabs",
+      index: 0,
+      project_description: "E-commerce website with suplements",
+      picture: "https://i.ibb.co/BqfQt1t/desirelabs-mobile-for-desktop.png",
+      picture_2: "https://i.ibb.co/SxKFvmH/desirelabs-desktop-for-mobile.png",
+      button_text: "Live",
+      href: "https://desirelabs.eu/",
+    },
+    {
       id: 666,
       project_header: "FindRemoteJob",
-      index: 0,
+      index: 1,
       project_description: "App for searching job (Next.js)",
       picture: "https://i.ibb.co/t43c1mK/miotlowisko-Smartphone.png",
       picture_2:
@@ -14,7 +24,7 @@ export const dataMobile = {
     {
       id: 678,
       project_header: "KANBAN APP",
-      index: 1,
+      index: 2,
       project_description: "App for managing tasks",
       picture: "https://i.ibb.co/t43c1mK/miotlowisko-Smartphone.png",
       picture_2: "https://i.ibb.co/9qSBRvR/mobilekanban.png",
@@ -24,7 +34,7 @@ export const dataMobile = {
     {
       id: 123,
       project_header: "SKINCARE",
-      index: 2,
+      index: 3,
       project_description: "E-commerce site for selling courses",
       picture: "https://i.ibb.co/t43c1mK/miotlowisko-Smartphone.png",
       picture_2: "https://i.ibb.co/B39vhYN/skincare-desktop-mobile-min.png",
@@ -34,7 +44,7 @@ export const dataMobile = {
     {
       id: 678,
       project_header: "X-MEDIA",
-      index: 3,
+      index: 4,
       project_description: "Website for marketing agency",
       picture: "https://i.ibb.co/t43c1mK/miotlowisko-Smartphone.png",
       picture_2: "https://i.ibb.co/zxXrqw6/xmedia-desktop-for-mobile-min.png",
@@ -44,7 +54,7 @@ export const dataMobile = {
     {
       id: 345,
       project_header: "MIOTŁOWISKO",
-      index: 4,
+      index: 5,
       project_description: "Website for local business with sauna events",
       picture: "https://i.ibb.co/t43c1mK/miotlowisko-Smartphone.png",
       picture_2: "https://i.ibb.co/jLxkfwK/miotlowisko-desktop-mobile-min.png",

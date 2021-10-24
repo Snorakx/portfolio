@@ -1,10 +1,21 @@
 export const data = {
   properties: [
     {
+      id: 263,
+
+      project_header: "DesireLabs",
+      index: 0,
+      project_description: "E-commerce website with suplements",
+      picture: "https://i.ibb.co/BqfQt1t/desirelabs-mobile-for-desktop.png",
+      picture_2: "https://i.ibb.co/jhLgryK/desirelabs-desktop-for-desktop.png",
+      button_text: "Live",
+      href: "https://desirelabs.eu/",
+    },
+    {
       id: 555,
 
       project_header: "FindRemoteJobs",
-      index: 0,
+      index: 1,
       project_description: "App for searching jobs (Next.js)",
       picture: "https://i.ibb.co/KzHY0mK/findremote-mobile-min.png",
       picture_2: "https://i.ibb.co/mvZRf9s/findremote-desktop-min.png",
@@ -14,7 +25,7 @@ export const data = {
     {
       id: 678,
       project_header: "Kanban App",
-      index: 1,
+      index: 2,
       project_description: "App for managing tasks",
       picture: "https://i.ibb.co/dpL5Zcp/000.png",
       picture_2: "https://i.ibb.co/gzcqBS9/kanban-big-1.png",
@@ -26,7 +37,7 @@ export const data = {
       id: 345,
 
       project_header: "SKINCARE",
-      index: 2,
+      index: 3,
       project_description: "E-commerce site for selling courses",
       picture: "https://i.ibb.co/dtZSF56/skincare-Smartphone.png",
       picture_2: "https://i.ibb.co/RSVYZLR/skincare-Desktop.png",
@@ -37,7 +48,7 @@ export const data = {
     {
       id: 911,
       project_header: "X-MEDIA",
-      index: 3,
+      index: 4,
       project_description: "Website for marketing agency",
       picture: "https://i.ibb.co/Dzby7Kt/xmedia-smartphone-min.png",
       picture_2: "https://i.ibb.co/3hCGGD1/Mac-Book-Pro-1-min.png",
@@ -49,7 +60,7 @@ export const data = {
       id: 123,
 
       project_header: "MIOTŁOWISKO",
-      index: 4,
+      index: 5,
       project_description: "Website for local business with sauna events.",
       picture: "https://i.ibb.co/t43c1mK/miotlowisko-Smartphone.png",
       picture_2: "https://i.ibb.co/LpkQq7n/miotlowisko-Desktop.png",
