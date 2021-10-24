@@ -3,7 +3,7 @@ export const dataMobile = {
     {
       id: 263,
       project_header: "DesireLabs",
-      index: 0,
+      index: 1,
       project_description: "E-commerce website with suplements",
       picture: "https://i.ibb.co/BqfQt1t/desirelabs-mobile-for-desktop.png",
       picture_2: "https://i.ibb.co/SxKFvmH/desirelabs-desktop-for-mobile.png",
@@ -13,7 +13,7 @@ export const dataMobile = {
     {
       id: 666,
       project_header: "FindRemoteJob",
-      index: 1,
+      index: 0,
       project_description: "App for searching job (Next.js)",
       picture: "https://i.ibb.co/t43c1mK/miotlowisko-Smartphone.png",
       picture_2:

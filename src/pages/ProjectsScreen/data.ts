@@ -4,7 +4,7 @@ export const data = {
       id: 263,
 
       project_header: "DesireLabs",
-      index: 0,
+      index: 1,
       project_description: "E-commerce website with suplements",
       picture: "https://i.ibb.co/BqfQt1t/desirelabs-mobile-for-desktop.png",
       picture_2: "https://i.ibb.co/jhLgryK/desirelabs-desktop-for-desktop.png",
@@ -15,7 +15,7 @@ export const data = {
       id: 555,
 
       project_header: "FindRemoteJobs",
-      index: 1,
+      index: 0,
       project_description: "App for searching jobs (Next.js)",
       picture: "https://i.ibb.co/KzHY0mK/findremote-mobile-min.png",
       picture_2: "https://i.ibb.co/mvZRf9s/findremote-desktop-min.png",
