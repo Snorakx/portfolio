@@ -1,15 +1,6 @@
 export const dataMobile = {
   properties: [
-    {
-      id: 263,
-      project_header: "DesireLabs",
-      index: 1,
-      project_description: "E-commerce website with suplements",
-      picture: "https://i.ibb.co/BqfQt1t/desirelabs-mobile-for-desktop.png",
-      picture_2: "https://i.ibb.co/SxKFvmH/desirelabs-desktop-for-mobile.png",
-      button_text: "Live",
-      href: "https://desirelabs.eu/",
-    },
+
     {
       id: 666,
       project_header: "FindRemoteJob",
@@ -20,6 +11,16 @@ export const dataMobile = {
         "https://i.ibb.co/ZT9vsZB/finrremote-desktop-for-mobile-min.png",
       button_text: "Live",
       href: "https://github.com/Snorakx/KanbanApp",
+    },
+    {
+      id: 263,
+      project_header: "DesireLabs",
+      index: 1,
+      project_description: "E-commerce website with suplements",
+      picture: "https://i.ibb.co/BqfQt1t/desirelabs-mobile-for-desktop.png",
+      picture_2: "https://i.ibb.co/SxKFvmH/desirelabs-desktop-for-mobile.png",
+      button_text: "Live",
+      href: "https://desirelabs.eu/",
     },
     {
       id: 678,

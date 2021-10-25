@@ -1,16 +1,6 @@
 export const data = {
   properties: [
-    {
-      id: 263,
 
-      project_header: "DesireLabs",
-      index: 1,
-      project_description: "E-commerce website with suplements",
-      picture: "https://i.ibb.co/BqfQt1t/desirelabs-mobile-for-desktop.png",
-      picture_2: "https://i.ibb.co/jhLgryK/desirelabs-desktop-for-desktop.png",
-      button_text: "Live",
-      href: "https://desirelabs.eu/",
-    },
     {
       id: 555,
 
@@ -21,6 +11,17 @@ export const data = {
       picture_2: "https://i.ibb.co/mvZRf9s/findremote-desktop-min.png",
       button_text: "Live",
       href: "https://findremotejobs.netlify.app/",
+    },
+    {
+      id: 263,
+
+      project_header: "DesireLabs",
+      index: 1,
+      project_description: "E-commerce website with suplements",
+      picture: "https://i.ibb.co/BqfQt1t/desirelabs-mobile-for-desktop.png",
+      picture_2: "https://i.ibb.co/jhLgryK/desirelabs-desktop-for-desktop.png",
+      button_text: "Live",
+      href: "https://desirelabs.eu/",
     },
     {
       id: 678,

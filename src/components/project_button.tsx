@@ -18,7 +18,6 @@ const ProjectButton: FC = (props) => {
   }
 
   const history = useHistory();
-  // const { href } = property;
   if (window.matchMedia("(max-width:688px)").matches) {
     return (
       <div className="project-button-box">
